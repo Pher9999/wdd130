@@ -28,7 +28,7 @@ h1 {
       
 .stats {
   position: absolute;
-  top: 25px;
+  bottom: 25px;
   left: 25px;
   background: radial-gradient(#eee, #323A06);
   border: 1px solid #000;
@@ -44,7 +44,7 @@ h2 {
 }
       
 footer {
-  /* position: fixed; */
+  position: fixed;
   bottom: 0;
   margin: 1rem;
   border-top: 1px solid #000;
