@@ -29,23 +29,14 @@ header, main, footer {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-}
-
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
 }
 
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
+
 
 .socialmedia a {
     text-decoration: none;
@@ -59,6 +50,17 @@ nav, p, section, article {
 
 .hero {
     position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: var(--background-color);
 }
 
 .hero img{
