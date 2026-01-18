@@ -31,10 +31,14 @@ header, main, footer {
 ul {
     color: var(--accent2-color);
 }
+
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     background-color: var(--accent1-color);
+}
+div {
+    color: var(--primary-color);
 }
 
 nav, p, section, article {
