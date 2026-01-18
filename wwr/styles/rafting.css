@@ -52,7 +52,7 @@ nav, p, section, article {
     position: relative;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -62,7 +62,7 @@ h1 {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
 }
-article {
+.hero article {
     position: absolute;
     bottom: 20px;
     width: 95%;
