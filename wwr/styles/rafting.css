@@ -60,7 +60,17 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: var(--background-color);
+    color: var(--accent2-color);
+}
+article {
+    position: absolute;
+    bottom: 20px;
+    width: 95%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 .hero img{
