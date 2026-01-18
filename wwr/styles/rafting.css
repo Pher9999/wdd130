@@ -1,5 +1,6 @@
 :root {
-    --primary-color: #F5EFEB;
+    --background-color: #F5EFEB;
+    --primary-color: #73460B;
     --secondary-color: #EBF5EF;
     --accent1-color: #B88E72;
     --accent2-color: #EBF1F5; 
@@ -17,6 +18,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    background-color: var(--background-color);
 }
 
 header, main, footer {
@@ -29,11 +31,43 @@ h1, h2 {
     color: var(--primary-color);
 }
 
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
 
-.socialmedia a{
+.socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    max-width: 40px;
+    height: auto;
+}
+
+
+.hero {
+    position: relative;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
 }
