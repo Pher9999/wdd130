@@ -18,11 +18,12 @@
 
 main {
     grid-column:  2/3;
-    margin: 1 rem;
+    margin: 1rem;
 }
 
 
 header footer {
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -30,9 +31,10 @@ main img{
     width: 150px;
     height: auto;
     border: 1px solid gray;
-    padding: 1px;
+    padding: 2px;
     box-shadow: var(--box-shadow);
     float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 aside {
@@ -46,6 +48,12 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+}
+aside h2 {
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    color: #000;
 }
 nav {
     background-color: darkblue;
@@ -78,7 +86,7 @@ img {
 }
 
 p {
-    padding: 0;;
+    margin: 2rem;
 }
 
 footer {
@@ -94,4 +102,8 @@ footer {
     border: var(--border);
     background-color: #eee;
     color: #333;
+}
+
+.indent {
+    padding: 2rem;
 }
