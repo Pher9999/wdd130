@@ -41,9 +41,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
-.socialmedia{
- 
-}
+
 .socialmedia a {
     text-decoration: none;
 }
