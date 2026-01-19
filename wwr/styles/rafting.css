@@ -19,9 +19,9 @@
 }
 
 body {
-    font-family: var(--body-font);
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
+    font-family: var(--body-font, Arial);
+    color: var(--primary-color, #342a21);
+    background-color: var(--secondary-color, #C1CC99);
 }
 
 header, main, footer {
@@ -61,7 +61,7 @@ footer {
 
 .navigation a {
     display: block;
-    color: var(--primary-color);
+    color: var(--primary-color,#342a21);
     padding: 20px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -73,16 +73,16 @@ footer {
 }
 
 ul {
-    color: var(--accent2-color);
+    color: var(--accent2-color,#73460B);
 }
 
 h1, h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    background-color: var(--accent1-color);
+    font-family: var(--heading-font, "Times New Roman");
+    color: var(--primary-color,#342a21);
+    background-color: var(--accent1-color,#F1E0C5);
 }
 div {
-    color: var(--primary-color);
+    color: var(--primary-color,#342a21);
 }
 
 p, section, article {
@@ -91,7 +91,7 @@ p, section, article {
 }
 
 p {
-    color: var(--primary-color);
+    color: var(--primary-color, #342a21);
 }
 
 figure {
@@ -109,8 +109,8 @@ figure {
     padding: 16px;
     text-align: center;
     opacity: 0.8;
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
+    background-color: var(--accent1-color,#F1E0C5);
+    color: var(--primary-color,#342a21);
 }
 .hero article {
     position: absolute;
@@ -119,8 +119,8 @@ figure {
     padding: 16px;
     text-align: center;
     opacity: 0.8;
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
+    background-color: var(--accent1-color,#F1E0C5);
+    color: var(--primary-color, #342a21);
 }
 
 .hero article p{
