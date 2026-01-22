@@ -39,7 +39,7 @@ header {
 
 footer {
     display: grid;
-    grid-template-columns: 100px 1fr 140px;
+    grid-template-columns: 1fr 1fr 140px;
     grid-template-rows: auto;
     align-items: center;
     justify-content: center;
@@ -47,8 +47,15 @@ footer {
     max-width: 1000px;
 }
 
+.copyright{
+    grid-area:b;
+    align-content: center;
+    justify-content: center;
+}
+
 .socialmedia{
     grid-area:c;
+    justify-items: left;
     place-content: space-evenly;
 }
 .socialmedia a {
