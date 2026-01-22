@@ -36,12 +36,21 @@ header {
     align-items: center;
     max-width: 1000px;
 }
+
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 100px 1fr 140px;
+    grid-template-rows: auto;
     align-items: center;
+    justify-content: center;
+    grid-template-areas: "a b c";
+    max-width: 1000px;
 }
 
+.socialmedia{
+    grid-area:c;
+    place-content: space-evenly;
+}
 .socialmedia a {
     text-decoration: none;
 }
@@ -159,7 +168,7 @@ figure {
     display: grid;
     grid-template-columns: repeat(5, 160px);
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 .adventure h2{
     grid-column: span 5;
