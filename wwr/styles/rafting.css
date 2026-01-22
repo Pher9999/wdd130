@@ -54,7 +54,6 @@ footer {
 .socialmedia{
     grid-area:c;
     justify-items: left;
-    place-items: space-evenly;
 }
 .socialmedia a {
     text-decoration: none;
