@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Chris Riordan">
-    <meta name="description" content="WWR Contact Us page">
-    <title>Contact Us</title>
+    <meta name="description" content="WWR Contact Us page for fun and excitement on the river">
+    <title>Contact Us - White Water Rafting Co.</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -22,8 +22,50 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <div>This is a place holder for future project.</div>
+    <main class="contact">
+        <div class="address">
+            White water rafting company<br>
+            123 Main Street<br>
+            Kolob, California<br>
+            +1 999 999-9999<br>
+            info@whitewater.com<br>
+        </div>
+        <div class="Map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23848.673678798583!2d-77.86183089939881!3d-4.5954594219698155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1769391825511!5m2!1sen!2sus"
+                width="400" height="225" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div class="form">
+            <form action="">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
+                <label for="purpose"> Message Purpose</label>
+                <input type="radio" id="general" name="purpose" value="general"> <label for="general">General
+                    Inquiry </label>
+                <input type="radio" id="reservation" name="purpose" value="reservation"> <label
+                    for="reservation">Reservation Questions </label>
+                <input type="radio" id="suggestion" name="purpose" value="suggestion"> <label for="suggestion">Website
+                    Suggestion </label>
+                <input type="checkbox" id="newsletter" name="newsletter"><label for="newsletter"> Please subscribe me to
+                    the monthly newsletter </label>
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </div>
+        <div class="employees">
+            <h2> We Are Here to Serve You</h2>
+            <figure><img src="images/george_jetson.png" alt="George Jetson">
+                <figcaption> George Jetson</figcaption>
+            </figure>
+            <figure><img src="images/fred_flintstone.png" alt="Fred Flintstone">
+                <figcaption> Fred Flintstone</figcaption>
+            </figure>
+            <figure><img src="images/Barney_Rubble.png" alt="Barney Rubble">
+                <figcaption> Barney Rubble</figcaption>
+            </figure>
+        </div>
     </main>
     <footer>
         <p class="copyright"> &copy; 2026 - White Water Rafting company - Chris Riordan </p>

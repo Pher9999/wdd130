@@ -178,3 +178,42 @@ figure {
     grid-column: span 5;
 }
 
+.contact {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.address {
+    grid-area: 1/1;
+    grid-column: span 2;
+    align-items: center;
+    justify-items: center;
+}
+.map {
+    grid-area: 2 / 1;
+}
+
+.form {
+    grid-area: 2/2;
+    align-items: center;
+}
+
+.employees {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: baseline;
+    justify-items: center;
+}
+.employees h2{
+    grid-column: span 3;
+}
+
+.employees img {
+    width: 150px;
+    height: auto;
+}
+
