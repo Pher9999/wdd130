@@ -218,6 +218,9 @@ textarea, button {
     width: 100%;
 
 }
+.employees h1{
+    text-align: center;
+}
 
 .employees img {
     width: 250px;
