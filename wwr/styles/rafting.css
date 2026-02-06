@@ -179,9 +179,37 @@ figure {
 }
 
 
-.form {
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+    align-items: center;
+    border: none;
+}
+
+label {
+    grid-column: 1;
+    text-align: right;
+    padding-right: 10px;
+}
+
+input {
+    grid-column: 2;
     text-align: left;
-  
+    padding-right: 10px;
+}
+
+textarea, button {
+    grid-column: 1 / span 2;
+    width: 100%;
 }
 
 .employees table {
