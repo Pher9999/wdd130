@@ -278,3 +278,7 @@ textarea, button {
 #hero-main button{
     width: 50%;
 }
+
+#trips {
+    text-align: center;
+}
