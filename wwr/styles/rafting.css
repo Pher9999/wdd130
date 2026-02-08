@@ -274,3 +274,7 @@ textarea, button {
 #hero-main form{
     border: none;
 }
+
+#hero-main button{
+    width: 50%;
+}
