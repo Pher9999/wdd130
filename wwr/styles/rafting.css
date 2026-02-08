@@ -259,3 +259,18 @@ textarea, button {
 .button-box {
     text-align: center;
 }
+
+#hero-main h2 {
+    font-family: var(--heading-font, "Times New Roman");
+    color: var(--primary-color,#342a21);
+    text-align: center;
+    background: none;
+}
+
+#hero-main td{
+    vertical-align: top;
+}
+
+#hero-main form{
+    border: none;
+}
