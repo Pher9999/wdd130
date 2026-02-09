@@ -295,6 +295,7 @@ textarea, button {
 }
 
 #trips td {
+    vertical-align: top;
     width: 320px;
 }
 
