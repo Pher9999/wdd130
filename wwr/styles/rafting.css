@@ -280,5 +280,15 @@ textarea, button {
 }
 
 #trips {
+    width: 1000px;
+    text-align: center;
+}
+
+#trips main{
+    width: 1000px;
+    text-align: center;
+}
+
+#trips table{
     text-align: center;
 }
