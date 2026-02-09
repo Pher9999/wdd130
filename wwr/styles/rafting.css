@@ -282,6 +282,7 @@ textarea, button {
 #trips {
     width: 1000px;
     text-align: center;
+    color: #000;
 }
 
 #trips main{
@@ -291,4 +292,16 @@ textarea, button {
 
 #trips table{
     text-align: center;
+}
+
+#trips td {
+    width: 320px;
+}
+
+#trips ul {
+    font-size: smaller;
+    width: 280px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
 }
